@@ -1,4 +1,4 @@
-# Python HTML Splitter (MadDevs)
+# Python HTML Splitter (MadDevs homework) 
 
 
 ## Структура проекта
@@ -17,6 +17,7 @@
 ├── source.html
 └── tests
 ```
+
 ## Запуск скрипта:
 ```bash
 export MAX_LEN=<your_max_len>
@@ -25,5 +26,5 @@ export FILE_PATH=<your_file_path>
 git clone git@github.com:nikitadushakov/python-html-splitter.git
 cd python-html-splitter
 poetry install
-python3 msg_split.py --max-len==$MAX_LEN $FILE_PATH
+python3 msg_split.py --max-len=$MAX_LEN $FILE_PATH
 ```
