@@ -3,7 +3,8 @@ from typing import Callable
 from . import models
 
 
-class CouldNotSplitMessage(Exception): ...
+class CouldNotSplitMessage(Exception):
+    ...
 
 
 def send_html_tag(fn: Callable):

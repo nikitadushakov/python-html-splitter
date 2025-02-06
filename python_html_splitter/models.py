@@ -2,6 +2,7 @@ import dataclasses
 
 from . import config
 
+
 @dataclasses.dataclass(slots=True)
 class HTMLTag:
     name: str
@@ -10,7 +11,9 @@ class HTMLTag:
 
     @property
     def start_tag(self) -> str:
-        return f"<{self.name}{''.join(f' {name}="{value}"' for name, value in self.attrs)}>"
+        return f"<{self.name}{''.join(
+            f' {name}="{value}"' for name, value in self.attrs
+        )}>"
 
     @property
     def end_tag(self) -> str:
