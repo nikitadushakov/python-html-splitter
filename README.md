@@ -18,13 +18,21 @@
 └── tests
 ```
 
+## Сборка пакета:
+```bash
+git clone git@github.com:nikitadushakov/python-html-splitter.git
+cd python-html-splitter
+poetry install
+```
+
+## Запуск тестов:
+```bash
+poetry run pytest
+```
+
 ## Запуск скрипта:
 ```bash
 export MAX_LEN=<your_max_len>
 export FILE_PATH=<your_file_path>
-
-git clone git@github.com:nikitadushakov/python-html-splitter.git
-cd python-html-splitter
-poetry install
 poetry run python msg_split.py --max-len=$MAX_LEN $FILE_PATH
 ```
