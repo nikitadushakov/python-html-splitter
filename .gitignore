@@ -1,3 +1,6 @@
 .html_splitter_venv
+dist/
 fish
 */__pycache__
+*/.ruff_cache
+src/python_html_splitter/__pycache__/

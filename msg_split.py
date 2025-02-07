@@ -8,7 +8,8 @@ import python_html_splitter
 def main(max_len, file_path):
     with open(file_path, 'r') as f:
         fragments = python_html_splitter.split_html(
-            f, message_size=int(max_len))
+            f, message_size=int(max_len)
+        )
         for fragment in fragments:
             print(fragment)
 
