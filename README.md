@@ -26,5 +26,5 @@ export FILE_PATH=<your_file_path>
 git clone git@github.com:nikitadushakov/python-html-splitter.git
 cd python-html-splitter
 poetry install
-python3 msg_split.py --max-len=$MAX_LEN $FILE_PATH
+poetry run python msg_split.py --max-len=$MAX_LEN $FILE_PATH
 ```
