@@ -4,19 +4,25 @@
 
 ## Структура проекта
 ```
+.
 ├── README.md
+├── demo.html
 ├── msg_split.py
 ├── poetry.lock
 ├── pyproject.toml
-├── python_html_splitter
-│   ├── __init__.py
-│   ├── config.py
-│   ├── main.py
-│   ├── models.py
-│   ├── splitter.py
-│   └── utils.py
 ├── source.html
+├── src
+│   └── python_html_splitter
+│       ├── __init__.py
+│       ├── config.py
+│       ├── main.py
+│       ├── models.py
+│       ├── splitter.py
+│       └── utils.py
 └── tests
+    ├── __init__.py
+    ├── expected.py
+    └── test_splitter.py
 ```
 
 ## Сборка пакета:
