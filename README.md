@@ -1,5 +1,6 @@
 # Python HTML Splitter (MadDevs homework) 
 
+[![CodeFactor](https://www.codefactor.io/repository/github/nikitadushakov/python-html-splitter/badge)](https://www.codefactor.io/repository/github/nikitadushakov/python-html-splitter)
 
 ## Структура проекта
 ```
